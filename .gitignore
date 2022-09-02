@@ -1,6 +1,5 @@
 .DS_Store
 node_modules
-dist
 .env
 examples/*/yarn.lock
 examples/*/package-lock.json
