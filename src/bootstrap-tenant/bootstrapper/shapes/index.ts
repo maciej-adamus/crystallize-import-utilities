@@ -241,7 +241,6 @@ async function createOrUpdateShape(
     } else {
       const r = await context.callPIM({
         query: buildCreateShapeMutation({
-          identifier: shape.identifier,
           type: getShapeType(shape.type),
           name: shape.name,
           tenantId: context.tenantId,
